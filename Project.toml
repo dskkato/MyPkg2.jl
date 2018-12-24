@@ -1,0 +1,10 @@
+name = "MyPkg2"
+uuid = "78cf06aa-0788-11e9-1dbe-59a717ae3212"
+authors = ["Daisuke Kato <kato.daisuke429@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
